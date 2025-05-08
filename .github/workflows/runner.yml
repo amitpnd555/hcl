@@ -1,0 +1,13 @@
+name: Run pwd on self-hosted runner
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-pwd:
+    runs-on: self-hosted
+      - name: Execute pwd command
+        run: pwd
+
