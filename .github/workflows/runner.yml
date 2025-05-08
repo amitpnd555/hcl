@@ -8,6 +8,7 @@ on:
 jobs:
   run-pwd:
     runs-on: self-hosted
+    steps:
       - name: Execute pwd command
         run: pwd
 
